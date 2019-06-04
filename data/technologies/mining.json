@@ -1,0 +1,97 @@
+[
+  {
+    "technology":  "aluminium-mining",
+    "description": "World-wide aluminium mining",
+    "urls": [
+      "http://www.world-aluminium.org/statistics/#data"
+    ],
+    "lifecycle": [
+      {
+        "phase": "operation",
+        "time": { "mean": 1, "sigma": 0 },
+        "flows": [
+          {
+            "material": "aluminium",
+            "quantity": { "mean": 48000e3, "sigma": 11000e3 }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "technology":  "copper-mining",
+    "description": "World-wide copper mining",
+    "urls": [
+      "https://www.statista.com/statistics/254839/copper-production-by-country/"
+    ],
+    "lifecycle": [
+      {
+        "phase": "operation",
+        "time": { "mean": 1, "sigma": 0 },
+        "flows": [
+          {
+            "material": "copper",
+            "quantity": { "mean": 17500e3, "sigma": 2040e3 }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "technology":  "lithium-mining",
+    "description": "Lithium mine production worldwide",
+    "urls": [
+      "https://www.statista.com/statistics/606684/world-production-of-lithium/"
+    ],
+    "lifecycle": [
+      {
+        "phase": "operation",
+        "time": { "mean": 1, "sigma": 0 },
+        "flows": [
+          {
+            "material": "copper",
+            "quantity": { "mean": 43000, "sigma": 20000 }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "technology":  "silver-mining",
+    "description": "World-wide silver mining",
+    "urls": [
+      "http://sprott.com/media/1834/the-silver-institute-world-silver-survey-2018.pdf"
+    ],
+    "lifecycle": [
+      {
+        "phase": "operation",
+        "time": { "mean": 1, "sigma": 0 },
+        "flows": [
+          {
+            "material": "silver",
+            "quantity": { "mean": 25000, "sigma": 2300 }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "technology":  "zinc-mining",
+    "description": "World-wide zinc mining",
+    "urls": [
+      "https://www.statista.com/statistics/264878/world-production-of-zinc-metal/"
+    ],
+    "lifecycle": [
+      {
+        "phase": "operation",
+        "time": { "mean": 1, "sigma": 0 },
+        "flows": [
+          {
+            "material": "zinc",
+            "quantity": { "mean": 12200e3, "sigma": 1272e3 }
+          }
+        ]
+      }
+    ]
+  }
+]

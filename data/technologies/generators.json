@@ -1,0 +1,80 @@
+[
+  {
+    "technology":  "offshore-wind",
+    "description": "Vestas V90-3MW Wind Turbine",
+    "urls": [
+      "http://www.kentishflats.co.uk",
+      "https://en.wikipedia.org/wiki/Vestas_V90-3MW",
+      "https://www.vestas.com/~/media/vestas/about/sustainability/pdfs/lca_v903mw_version_1_1.pdf"
+    ],
+    "lifecycle": [
+      {
+        "phase": "construction",
+        "time": { "mean": 1, "sigma": 0 },
+        "flows": [
+          {
+            "material": "steel",
+            "quantity": { "mean": -281, "sigma": 0 }
+          },
+          {
+            "material": "aluminium",
+            "quantity": { "mean": -9.7, "sigma": 0 }
+          },
+          {
+            "material": "copper",
+            "quantity": { "mean": -6.53, "sigma": 0 }
+          },
+          {
+            "material": "zinc",
+            "quantity": { "mean": -0.233, "sigma": 0 }
+          },
+          {
+            "material": "silver",
+            "quantity": { "mean": -266e-6, "sigma": 0 }
+          },
+          {
+            "material": "concrete",
+            "quantity": { "mean": -250, "sigma": 0 }
+          },
+          {
+            "material": "offshore-shallow",
+            "quantity": { "mean": -.333, "sigma": 0 }
+          }
+        ]
+      },
+      {
+        "phase": "operation",
+        "time": { "mean": 20, "sigma": 1 },
+        "flows": [
+          {
+            "material": "electricity",
+            "quantity": { "mean": 217e6, "sigma": 0 }
+          }
+        ]
+      },
+      {
+        "phase": "decommission",
+        "time": { "mean": 1, "sigma": 0 },
+        "flows": [
+          {
+            "material": "steel",
+            "quantity": { "mean": 250, "sigma": 0 }
+          },
+          {
+            "material": "aluminium",
+            "quantity": { "mean": 8.92, "sigma": 0 }
+          },
+          {
+            "material": "copper",
+            "quantity": { "mean": 6.0, "sigma": 0 }
+          },
+          {
+            "material": "offshore-shallow",
+            "quantity": { "mean": .33, "sigma": 0 }
+          }
+        ]
+      }
+    ]
+  }
+]
+

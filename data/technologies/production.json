@@ -1,0 +1,40 @@
+[
+  {
+    "technology":  "steel-production",
+    "description": "World-wide steel production",
+    "urls": [
+      "https://en.wikipedia.org/wiki/List_of_countries_by_steel_production"
+    ],
+    "lifecycle": [
+      {
+        "name": "operation",
+        "time": { "mean": 1, "sigma": 0 },
+        "flows": [
+          {
+            "material": "steel",
+            "quantity": { "mean": 1532e6, "sigma": 174e6 }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "technology":  "concrete-production",
+    "description": "World-wide concrete production",
+    "urls": [
+      "http://concretehelper.com/concrete-facts/"
+    ],
+    "lifecycle": [
+      {
+        "name": "operation",
+        "time": { "mean": 1, "sigma": 0 },
+        "flows": [
+          {
+            "material": "concrete",
+            "quantity": { "mean": 10e9, "sigma": 0 }
+          }
+        ]
+      }
+    ]
+  }
+]

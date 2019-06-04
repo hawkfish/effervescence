@@ -1,0 +1,38 @@
+[
+  {
+    "material": "aluminium",
+    "unit": "t",
+    "description": "Metallic Aluminium ",
+    "urls": [ "https://en.wikipedia.org/wiki/Aluminium" ]
+  },
+  {
+    "material": "copper",
+    "unit": "t",
+    "description": "Metallic Copper ",
+    "urls": [ "https://en.wikipedia.org/wiki/Copper" ]
+  },
+  {
+    "material": "lithium",
+    "unit": "t",
+    "description": "Lithium ",
+    "urls": [ "https://en.wikipedia.org/wiki/Lithium" ]
+  },
+  {
+    "material": "silver",
+    "unit": "t",
+    "description": "Metallic Silver ",
+    "urls": [ "https://en.wikipedia.org/wiki/Silver" ]
+  },
+  {
+    "material": "uranium-235",
+    "unit": "t",
+    "description": "Refined uranium for non-breeder reactors",
+    "urls": [ "https://en.wikipedia.org/wiki/Uranium-235" ]
+  },
+  {
+    "material": "zinc",
+    "unit": "t",
+    "description": "Metallic Zinc ",
+    "urls": [ "https://en.wikipedia.org/wiki/Zinc" ]
+  }
+]

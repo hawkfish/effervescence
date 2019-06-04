@@ -1,0 +1,8 @@
+[
+  {
+    "material": "CO2",
+    "unit": "t",
+    "description": "Atmospheric carbon dioxide",
+    "urls": [ "https://en.wikipedia.org/wiki/Carbon_dioxide" ]
+  }
+]

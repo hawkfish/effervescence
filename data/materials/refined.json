@@ -1,0 +1,20 @@
+[
+  {
+    "material": "electricity",
+    "unit": "kWh",
+    "description": "Usable electrical energy",
+    "urls": [ "https:/www.withouthotair.com/c2/page_24.shtml" ]
+  },
+  {
+    "material": "steel",
+    "unit": "t",
+    "description": "Industrial construction steel",
+    "urls": [ "https://en.wikipedia.org/wiki/Steel" ]
+  },
+  {
+    "material": "concrete",
+    "unit": "t",
+    "description": "Industrial construction concrete",
+    "urls": [ "https://en.wikipedia.org/wiki/Concrete" ]
+  }
+]
