@@ -75,9 +75,8 @@ describe( 'Data', function() {
 
         expectTable( actual, 'resources', {
             material: null,
-            description: null,
             quantity: null,
-            urls: Array.isArray,
+            begin: null,
         });
     });
 
@@ -86,10 +85,8 @@ describe( 'Data', function() {
 
         expectTable( actual, 'infrastructure', {
             technology: null,
-            description: null,
             quantity: null,
             begin: null,
-            urls: Array.isArray,
         });
     });
 });

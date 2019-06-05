@@ -1,15 +1,11 @@
 [
   {
     "technology": "offshore-wind",
-    "description": "Kentish Flats",
-    "urls": [ "https://en.wikipedia.org/wiki/Kentish_Flats_Offshore_Wind_Farm" ],
     "quantity": 30,
     "begin": "2005-10-01"
   },
   {
     "technology": "offshore-wind",
-    "description": "Kentish Flats Extension",
-    "urls": [ "https://en.wikipedia.org/wiki/Kentish_Flats_Offshore_Wind_Farm#Kentish_Flats_extension" ],
     "quantity": 15,
     "begin": "2015-12-01"
   }
