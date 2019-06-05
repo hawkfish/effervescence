@@ -38,7 +38,7 @@
           },
           {
             "material": "offshore-shallow",
-            "quantity": { "mean": -.333, "sigma": 0 }
+            "quantity": { "mean": -0.333, "sigma": 0 }
           }
         ]
       },
@@ -70,7 +70,7 @@
           },
           {
             "material": "offshore-shallow",
-            "quantity": { "mean": .33, "sigma": 0 }
+            "quantity": { "mean": 0.33, "sigma": 0 }
           }
         ]
       }

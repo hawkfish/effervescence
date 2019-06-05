@@ -7,7 +7,7 @@
     ],
     "lifecycle": [
       {
-        "name": "operation",
+        "phase": "operation",
         "time": { "mean": 1, "sigma": 0 },
         "flows": [
           {
@@ -26,7 +26,7 @@
     ],
     "lifecycle": [
       {
-        "name": "operation",
+        "phase": "operation",
         "time": { "mean": 1, "sigma": 0 },
         "flows": [
           {
